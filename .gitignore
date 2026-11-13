@@ -37,3 +37,9 @@ bin/
 
 ### Build artifacts ###
 *.jar
+
+# Lab build output
+/build/
+/.tools/
+# Keep the dependency needed for an offline build
+!lib/*.jar
